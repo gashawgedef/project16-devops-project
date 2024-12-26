@@ -4,7 +4,7 @@ After you have built AWS infrastructure for 2 websites manually, it is time to a
 
 Let us start building the same set up with the power of Infrastructure as Code (IaC)
 
-![image](https://github.com/user-attachments/assets/76245f5b-f77a-4686-8830-c52b178aa937)
+![image](assets/352381474-76245f5b-f77a-4686-8830-c52b178aa937.png)
 
 
 ## Prerequisites before you begin writing Terraform code

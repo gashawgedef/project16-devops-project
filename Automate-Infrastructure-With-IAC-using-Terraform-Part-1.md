@@ -9,14 +9,14 @@ Let us start building the same set up with the power of Infrastructure as Code (
 
 ## Prerequisites before you begin writing Terraform code
 - You must have completed Terraform course from the Learning dashboard
-- Create an IAM user, name it terraform (ensure that the user has only programatic access to your AWS account) and grant this user 
+- Create an IAM user, name it `terraform` (ensure that the user has only programatic access to your AWS account) and grant this user 
 AdministratorAccess permissions.
-![image](https://github.com/user-attachments/assets/dc023dee-c752-4706-9814-1ca3081cd5cc)
+![image](assets/pr16-01-create-teraform-user.JPG)
 
-![image](https://github.com/user-attachments/assets/d59f4475-360e-4bb6-966d-9365b14fd59c)
+![image](assets/pr16-02-give-administrator-access.JPG)
 
 - Copy the secret access key and access key ID. Save them in a notepad temporarily.
-![image](https://github.com/user-attachments/assets/b8377e25-52dd-4ec3-b238-8ad8f7ff6c9d)
+![image](assets/pr16-03-create-access-keys.JPG)
 
 - Configure programmatic access from your workstation to connect to AWS using the access keys copied above and a 
 [Python SDK (boto3)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html).

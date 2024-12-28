@@ -56,6 +56,7 @@ Install Boto3 (Boto3 is a AWS SDK for Python) in your local machine
 ```
 pip install boto3
 ```
+![images](assets/pr16-10-install-python-sdk.JPG)
 When you have configured authentication and installed boto3, make sure you can programmatically access your AWS account by running 
 following commands in >python:
   
@@ -70,8 +71,8 @@ Save the above code to a file (e.g., list_buckets.py) or run it directly in a Py
  python gashaw.py
 ```
   
-You shall see your previously created S3 bucket name – melkamu-dev-terraform-bucket
-![image](https://github.com/user-attachments/assets/d1700d48-8656-4ecd-8754-e460167536c9)
+You shall see your previously created S3 bucket name – gashaw-dev-terraform-bucket
+![image](assets/pr16-06-retrieve-buckets.JPG)
 
 ## The secrets of writing quality Terraform code
 The secret recipe of a successful Terraform projects consists of:

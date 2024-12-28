@@ -167,8 +167,8 @@ provisioners. At this stage, we only have provider in our main.tf file. So, Terr
 
 > terraform init
 ```
-![image](assets/pr16-12_init-1.JPG)
-![image](assets/pr16-13-init-2.JPG)
+![image](assets/pr16-15-init.jpg)
+
 
 **Observations:**
 
@@ -182,13 +182,14 @@ Let's verify what terraform intends to create
 ```
 terraform plan
 ```
-![image](assets/pr16-14_apply.JPG)
+![image](assets/pr16-16-plan-plan.jpg)
 
 - Then, if you are happy with changes planned, execute
 
 ```
  terraform apply
 ```
+![images](assets/pr16-17-terraform-apply.jpg)
 
 **Observations:**
 

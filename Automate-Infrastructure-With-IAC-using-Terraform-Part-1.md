@@ -25,30 +25,30 @@ AdministratorAccess permissions.
 ```
 python --version
 ```
-![image](https://github.com/user-attachments/assets/6854ece4-ffcc-480d-bba0-64db65a8312a)
+![image](assets/pr16-07-see-python-version.JPG)
 
 If you are on Windows, use gitbash, if you are on a Mac, you can simply open a terminal. Read here to configure the Python SDK properly.
 ```
 aws --version
 ```
-![image](https://github.com/user-attachments/assets/4109ccce-24f0-4342-8d08-5c964e1b54df)
+![image](assets/pr16-08-aws-version.JPG)
 
 For easier authentication configuration – use AWS CLI with aws configure command.
 
 Create an S3 bucket to store Terraform state file. You can name it something like `yourname`-dev-terraform-bucket 
 (Note: S3 bucket names must be unique unique within a region partition, you can read about S3 bucken naming  ). 
 We will use this bucket from Project-17 onwards.
-for me `melkamu-dev-terraform-bucket`
-![image](https://github.com/user-attachments/assets/2654e5dd-8617-4ffc-952f-74c3f6d37ddd)
+for me `gashaw-dev-terraform-bucket`
+![image](assets/pr16-04-create_buckets.JPG)
 
-![image](https://github.com/user-attachments/assets/962abf50-4797-4ffe-bce7-e16a8f25c787)
+![image](assets/pr16-05-createbucket-02.JPG)
 
 
  **Verfiy this in  AWS CLI**
  ```
 aws s3 ls
 ```
-![image](https://github.com/user-attachments/assets/b1ffc244-8b26-4223-b50e-b863fa50cc96)
+![image](assets/pr16-09-see-bucket-list.JPG)
 
 
 
@@ -67,7 +67,7 @@ for bucket in s3.buckets.all():
 ```
 Save the above code to a file (e.g., list_buckets.py) or run it directly in a Python interpreter
 ```
- python list_bucket.py
+ python gashaw.py
 ```
   
 You shall see your previously created S3 bucket name – melkamu-dev-terraform-bucket

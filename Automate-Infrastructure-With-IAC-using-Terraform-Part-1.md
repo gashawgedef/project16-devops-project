@@ -127,7 +127,7 @@ Open your Visual Studio Code and:
 
 Your setup should look like this.
 
-![image](https://github.com/user-attachments/assets/5a8fd1e5-cca6-4d5a-a6f1-1ea8c7c3879d)
+![image](assets/PR16-11-CREATE-PBL.JPG)
 
 ## Provider and VPC resource section
 Set up Terraform CLI as per this [instruction](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli).
@@ -167,7 +167,8 @@ provisioners. At this stage, we only have provider in our main.tf file. So, Terr
 
 > terraform init
 ```
-![image](https://github.com/user-attachments/assets/9c8e7f40-9fbf-499b-b952-e55614ebc225)
+![image](assets/pr16-12_init-1.JPG)
+![image](assets/pr16-13-init-2.JPG)
 
 **Observations:**
 
@@ -181,7 +182,7 @@ Let's verify what terraform intends to create
 ```
 terraform plan
 ```
-![image](https://github.com/user-attachments/assets/2e2914de-56f7-4e15-a807-acb5c06f7228)
+![image](assets/pr16-14_apply.JPG)
 
 - Then, if you are happy with changes planned, execute
 

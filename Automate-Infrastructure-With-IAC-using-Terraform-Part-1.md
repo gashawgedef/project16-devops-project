@@ -568,9 +568,9 @@ resource "aws_subnet" "public" {
 
 ```
 
-![image](https://github.com/user-attachments/assets/028b0000-0ef3-4e88-800a-d5f6e6fd4d27)
+![image](assets/pr16-25-creates.jpg)
 
-![image](https://github.com/user-attachments/assets/39aec0e3-d2d0-4c15-b4f3-287c3a59f31a)
+![image](assets/pr16-24-create.jpg)
 
 
 Note: You should try changing the value of preferred_number_of_public_subnets variable to null and notice how many subnets get 

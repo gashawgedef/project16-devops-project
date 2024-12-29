@@ -283,7 +283,7 @@ First, destroy the current infrastructure. Since we are still in development, th
 ```
 terraform destroy
 ```
-![image](https://github.com/user-attachments/assets/bd1ab2a9-6e6e-4d52-8605-36ed04c98eb8)
+![image](assets/pr16-23-destroy.jpg)
 
 Now let us improve our code by refactoring it.
 

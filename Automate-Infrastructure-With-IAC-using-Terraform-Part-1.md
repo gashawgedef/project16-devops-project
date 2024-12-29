@@ -259,13 +259,15 @@ Run terraform plan to check the intend infrusture and terraform apply to create 
 ```
 terraform plan
 ```
+![images](assets/pr16-18_create-subnets.jpg)
 ```
 terraform apply
 ```
-![image](https://github.com/user-attachments/assets/0878f6ca-6e1a-4878-a22d-f6038d1d55bd)
+![image](assets/pr16-20-apply-subnets.jpg)
 
-![image](https://github.com/user-attachments/assets/c54cc611-0fc0-455e-9633-a39833de171a)
-![image](https://github.com/user-attachments/assets/2734b9b6-a4ec-47de-aaa1-0ed79f6a0fae)
+![image](assets/pr16-22-vpc.jpg)
+
+![image](assets/pr16-21-subnets%20list.jpg)
 
 
 **Observations:**
